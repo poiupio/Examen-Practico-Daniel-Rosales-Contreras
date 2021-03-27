@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import '../style/DynamicForm.css';
 import DynamicField from './DynamicField';
 
 const DynamicForm = () => {
   const [dynamicElements, setDynamicElements] = useState([]);
   const [inputTextValue, setImputText] = useState('');
-
-  useEffect(() => {});
 
   const saveText = (event) =>{
     if(inputTextValue !== ''){
