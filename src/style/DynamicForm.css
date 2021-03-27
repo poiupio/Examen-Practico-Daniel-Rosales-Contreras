@@ -1,0 +1,26 @@
+.default-message{
+  margin: 10px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px 30px;
+}
+
+.dynamic-form{
+  height: 38px;
+  width: 100%;
+  margin: 0 0 7px 10px;
+}
+
+.input-text-form{
+  width: 80%;
+}
+
+.button-form{
+  width: 15%;
+  margin-left: 10px;
+}
+
+.dynamic-form{
+  height: 38px;
+}
